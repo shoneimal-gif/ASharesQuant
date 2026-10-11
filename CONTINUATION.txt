@@ -1,0 +1,22 @@
+ASharesQuant 项目接续说明
+
+用户要求：A 股只给建议，不自动交易；日线波段和盘中监测一起集成。
+真实参考资金、自选池和 A 股数据源尚未确定。模拟初始现金 100,000 元人民币，
+不代表真实资金，也不与美股模拟资金混用。Python 3.10+，全部标准库。
+四类信号：日线放量突破、趋势回踩确认、盘中开盘区间突破、VWAP 重新站稳。
+
+当前状态：
+源码及文档已迁入 ASharesQuant；原交付仅做静态语法检查。
+本次迁移没有运行应用、测试或行情接口，也没有提交交易。
+启动器改用当前用户目录或 ASHARE_PYTHON；此次启动器修改未运行验证。
+用户已授权下一步在 Codex 云端完成开发和离线验证。
+
+云端接续：
+GitHub 仓库 shoneimal-gif/ASharesQuant。
+环境选择该仓库，Get started，完成准备后 Publish。
+开始任务时发送：请读取 CLOUD_TASK.txt，按其中的授权、流程和验收项完成开发及离线验证。
+必须实际交付 CLOUD_VALIDATION_REPORT.md 和 CLOUD_VALIDATION_SUMMARY.json。
+未产生真实验证结果时，不声称云端任务完成或策略盈利。
+
+原混合聊天保留在 Codex 中。本文件保存 A 股需求和状态，便于在项目内继续。
+完整用法见 README.md，数据契约见 DATA_FORMATS.md。

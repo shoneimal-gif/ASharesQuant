@@ -1,0 +1,192 @@
+{
+  "checked_at_utc": "2026-10-11T05:45:58.976722+00:00",
+  "python_used_for_parsing": "3.12.14",
+  "status": "STATIC_PARSE_PASSED",
+  "scope": "AST Python3.10 syntax, import names and JSON syntax only",
+  "application_executed": false,
+  "tests_executed": false,
+  "real_market_api_called": false,
+  "broker_orders_submitted": false,
+  "cloud_task_submitted": false,
+  "python_files": [
+    {
+      "file": "config.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "dataclasses",
+        "json",
+        "math",
+        "models",
+        "pathlib"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "data_loader.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "contextlib",
+        "csv",
+        "dataclasses",
+        "datetime",
+        "fcntl",
+        "hashlib",
+        "io",
+        "json",
+        "logging",
+        "math",
+        "models",
+        "msvcrt",
+        "os",
+        "pathlib",
+        "tempfile",
+        "typing"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "demo_data.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "datetime",
+        "math",
+        "models"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "detector.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "collections",
+        "config",
+        "dataclasses",
+        "datetime",
+        "logging",
+        "math",
+        "models",
+        "typing"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "main.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "argparse",
+        "config",
+        "data_loader",
+        "datetime",
+        "demo_data",
+        "detector",
+        "fcntl",
+        "json",
+        "logging",
+        "models",
+        "msvcrt",
+        "os",
+        "pathlib",
+        "replay",
+        "reporting",
+        "sys",
+        "time",
+        "tushare_client"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "models.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "dataclasses",
+        "datetime",
+        "hashlib",
+        "json",
+        "math",
+        "re",
+        "typing"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "paper_trader.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "config",
+        "dataclasses",
+        "datetime",
+        "decimal",
+        "math",
+        "models",
+        "typing"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "replay.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "config",
+        "datetime",
+        "detector",
+        "itertools",
+        "models",
+        "paper_trader",
+        "typing"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "reporting.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "config",
+        "csv",
+        "html",
+        "io",
+        "json",
+        "models",
+        "os",
+        "pathlib",
+        "typing"
+      ],
+      "unknown_imports": []
+    },
+    {
+      "file": "tushare_client.py",
+      "python_310_syntax": "parsed",
+      "imports": [
+        "__future__",
+        "collections",
+        "config",
+        "data_loader",
+        "dataclasses",
+        "datetime",
+        "email",
+        "hashlib",
+        "http",
+        "json",
+        "logging",
+        "math",
+        "models",
+        "os",
+        "ssl",
+        "threading",
+        "time",
+        "typing",
+        "urllib"
+      ],
+      "unknown_imports": []
+    }
+  ],
+  "errors": []
+}

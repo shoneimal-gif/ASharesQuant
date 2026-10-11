@@ -1,0 +1,10 @@
+runtime/
+data/
+__pycache__/
+*.pyc
+*.tmp
+*.lock
+.env
+.env.*
+auth.json
+credentials.json
